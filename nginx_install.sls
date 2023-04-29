@@ -6,5 +6,3 @@ pkg_installs:
 nginx_unpack:
  cmd.run:
  - name: sudo tar -xvzf /tmp/nginx-1.18.0.tar.gz -C /tmp/ && cd /tmp/nginx-1.18.0 && sudo ./configure && sudo make && sudo make install
-
- - cwd: /tmp
